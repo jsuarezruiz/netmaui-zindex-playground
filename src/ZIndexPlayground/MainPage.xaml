@@ -1,0 +1,30 @@
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ZIndexPlayground.MainPage"
+    BackgroundColor="{DynamicResource SecondaryColor}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="BoxView">
+                <Setter Property="HeightRequest" Value="150" />
+                <Setter Property="WidthRequest" Value="150" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <BoxView
+            Color="Red"
+            ZIndex="3"
+            Margin="12"/>
+        <BoxView
+            Color="Green"
+            ZIndex="2"
+            Margin="24"/>
+        <BoxView
+            Color="Blue"
+            ZIndex="1"
+            Margin="36"/>
+    </Grid>
+</ContentPage>
