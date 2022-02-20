@@ -1,4 +1,4 @@
-# NET MAUI ZIndex Playground
+# .NET MAUI ZIndex Playground
 
 .NET MAUI ZIndex sample.
 
